@@ -36,6 +36,7 @@ $ sudo ufw enable
 $ sudo ufw disable
 $ sudo ufw status verbose
 $ sudo ufw allow ssh
+$ sudo ufw status
 
 ### Install Python3
 $ sudo apt-get update
