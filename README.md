@@ -45,6 +45,8 @@ $ sudo apt install g++
 $ sudo apt install build-essential
 
 ### Install MariaDB
+// https://websiteforstudents.com/allow-remote-access-to-mariadb-database-server-on-ubuntu-18-04/
+
 $ sudo apt-get remove mariadb-server
 $ sudo apt-get install software-properties-common
 $ sudo apt-key adv --recv-keys --keyserver hkp://keyserver.ubuntu.com:80 0xF1656F24C74CD1D8
@@ -64,3 +66,10 @@ $ sudo add-apt-repository ppa:linuxuprising/java
 $ sudo apt update
 $ sudo apt install oracle-java13-set-default
 
+### Update Packages
+$ sudo apt list --upgradable
+$ sudo apt update
+$ sudo apt install
+
+### Check Java Version
+$ java -version
