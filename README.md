@@ -70,10 +70,12 @@ $ sudo mysql_secure_installation
 
 ### Confirm MariaDB version
 $ mysql -u root -p
-MariaDB [(none)]> SELECT VERSION();
+> MariaDB [(none)]> SELECT VERSION();
 
 
 ### Install Java 13
 $ sudo add-apt-repository ppa:linuxuprising/java
 $ sudo apt update
 $ sudo apt install oracle-java13-set-default
+
+
