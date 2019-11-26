@@ -53,3 +53,27 @@ $ sudo apt install g++
 
 ### Install build essentials
 $ sudo apt install build-essential
+
+
+### Install MariaDB
+$ sudo apt-get remove mariadb-server
+$ sudo apt-get install software-properties-common
+$ sudo apt-key adv --recv-keys --keyserver hkp://keyserver.ubuntu.com:80 0xF1656F24C74CD1D8
+$ sudo add-apt-repository "deb [arch=amd64,arm64,ppc64el] http://mariadb.mirror.liquidtelecom.com/repo/10.4/ubuntu $(lsb_release -cs) main"
+$ sudo apt update
+$ sudo apt -y install mariadb-server mariadb-client
+
+
+### Set MariaDB root password
+$ sudo mysql_secure_installation
+
+
+### Confirm MariaDB version
+$ mysql -u root -p
+MariaDB [(none)]> SELECT VERSION();
+
+
+### Install Java 13
+$ sudo add-apt-repository ppa:linuxuprising/java
+$ sudo apt update
+$ sudo apt install oracle-java13-set-default
