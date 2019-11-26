@@ -29,6 +29,14 @@ $ sudo shutdown -r now
 ### Remote Reboot
 $ ssh –t user@server.com ‘sudo reboot’
 
+### Firewall
+$ sudo apt-get install ufw
+$ sudo ufw status
+$ sudo ufw enable
+$ sudo ufw disable
+$ sudo ufw status verbose
+$ sudo ufw allow ssh
+
 ### Install Python3
 $ sudo apt-get update
 $ sudo apt update
