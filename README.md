@@ -1,10 +1,10 @@
 # Ubuntu
 Common command line instructions
 
-## Add Users
+### Add Users
 $ adduser username
 
-## Add User to SUDO list
+### Add User to SUDO list
 $ usermod -aG sudo username
 
 
