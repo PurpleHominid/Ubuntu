@@ -74,8 +74,8 @@ Common command line instructions
 
 
 ### Install Java 13
-> $ sudo add-apt-repository ppa:linuxuprising/java
-> $ sudo apt update
+> $ sudo add-apt-repository ppa:linuxuprising/java 
+> $ sudo apt update 
 > $ sudo apt install oracle-java13-set-default
 
 
