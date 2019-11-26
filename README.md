@@ -46,6 +46,7 @@ $ sudo apt install build-essential
 
 ### Install MariaDB
 // https://websiteforstudents.com/allow-remote-access-to-mariadb-database-server-on-ubuntu-18-04/
+// https://mariadb.com/kb/en/library/connecting-to-mariadb/
 
 $ sudo apt-get remove mariadb-server
 $ sudo apt-get install software-properties-common
