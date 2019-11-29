@@ -89,3 +89,7 @@ $ java -version
 $ sudo passwd <user_name>
 $ passwd
 
+
+### List Open Ports
+$ netstat --tcpu --listen --numeric-ports
+
