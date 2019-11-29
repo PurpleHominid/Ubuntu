@@ -84,3 +84,8 @@ $ sudo apt install
 
 ### Check Java Version
 $ java -version
+
+### Reset password
+$ sudo passwd <user_name>
+$ passwd
+
