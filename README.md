@@ -91,5 +91,5 @@ $ passwd
 
 
 ### List Open Ports
-$ netstat --tcpu --listen --numeric-ports
+$ netstat -lntu
 
